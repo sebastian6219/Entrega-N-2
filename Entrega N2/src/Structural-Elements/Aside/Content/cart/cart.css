@@ -1,0 +1,236 @@
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: #F7F7FF; 
+    gap: 2rem; 
+}
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+}
+
+
+.btn-empty-cart {
+    background-color: #E91E63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 1rem;
+}
+
+.btn-empty-cart:hover {
+    background-color: #c2185b;
+}
+
+
+.btn-checkout {
+    background-color: #2698f2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-checkout:hover {
+    background-color: #1e80c3;
+}
+
+
+.empty-cart-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.empty-cart-message img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    opacity: 60%;
+}
+
+.empty-cart-message h2,
+.empty-cart-message h3 {
+    margin: 0;
+}
+
+.empty-cart-message .btn-blue {
+    width: 300px;
+    height: 40px;
+    color: #ffdde1;
+    background-color: #495867;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.empty-cart-message .btn-blue:hover {
+    background-color: #642ca9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.empty-cart-message .btn-blue:active {
+    background-color: #004494;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.price-and-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin: 1rem 0;
+    width: 100%; 
+    height: 200px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.buttons{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.btn-clear-cart {
+    border: 1px solid #2698f2;
+    border-radius: 5px;
+    color: #2698f2;
+    padding: 8px 8px;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-clear-cart:hover {
+    background-color: #1e80c3;
+    color: white; 
+}
+
+.btn-clear-cart svg {
+    margin-right: 5px;
+    top: 0;
+}
+
+
+.btn-checkout {
+    border: 1px solid #2698f2;
+    background-color: white;
+    border-radius: 5px;
+    color: #2698f2;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-checkout:hover {
+    background-color: #1e80c3;
+    color: white;
+}
+
+
+.price-total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 3rem 2rem;
+
+    background-color: #bdd5ea65; 
+}
+
+.date-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-contain img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.date-contain h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.date-contain h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.date-contain .btn-blue {
+    background-color: #2698f2; 
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.date-contain .btn-blue:hover {
+    background-color: #1e80c3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.date-contain .btn-blue:active {
+    background-color: #0056b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
